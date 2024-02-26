@@ -84,7 +84,7 @@ export class VehicleInfoFormComponent implements OnInit {
   formatLicence() {
     if (this.vehicleInfoForm.value.licenseNumber?.trim()) {
       const formattedNumber = formatLicenceNumber(
-        this.vehicleInfoForm.value.licenseNumber
+        this.vehicleInfoForm.value.licenseNumber?.toUpperCase()
       ) as string;
       this.vehicleInfoForm.patchValue({
         licenseNumber: formattedNumber,
