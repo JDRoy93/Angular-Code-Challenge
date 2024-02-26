@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "subType": "Hatchback",
+    "typeName": "Auto"
+  },
+  {
+    "id": 2,
+    "subType": "Sedan",
+    "typeName": "Auto"
+  },
+  {
+    "id": 3,
+    "subType": "Station",
+    "typeName": "Auto"
+  },
+  {
+    "id": 4,
+    "subType": "Cabriolet",
+    "typeName": "Auto"
+  },
+  {
+    "id": 5,
+    "subType": "Coupé",
+    "typeName": "Auto"
+  },
+  {
+    "id": 6,
+    "subType": "Multi Purpose Vehicle (MVP)",
+    "typeName": "Auto"
+  },
+  {
+    "id": 7,
+    "subType": "Terreinauto",
+    "typeName": "Auto"
+  },
+  {
+    "id": 8,
+    "subType": "All-road",
+    "typeName": "Motor"
+  },
+  {
+    "id": 8,
+    "subType": "Naked",
+    "typeName": "Motor"
+  },
+  {
+    "id": 8,
+    "subType": "Enduro",
+    "typeName": "Motor"
+  },
+  {
+    "id": 8,
+    "subType": "Race",
+    "typeName": "Motor"
+  },
+  {
+    "id": 8,
+    "subType": "Toermotor",
+    "typeName": "Motor"
+  },
+  {
+    "id": 8,
+    "subType": "Chopper",
+    "typeName": "Motor"
+  },
+  {
+    "id": 8,
+    "subType": "Zijspan",
+    "typeName": "Motor"
+  }
+]

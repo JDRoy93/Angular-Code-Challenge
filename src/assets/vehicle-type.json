@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "typeName": "Auto",
+      "imageUrl": "../../../assets/auto.jpg"
+    },
+    {
+      "id": 2,
+      "typeName": "Motor",
+      "imageUrl": "../../../assets/motor.jpg"
+    },
+    {
+      "id": 3,
+      "typeName": "Scooter",
+      "imageUrl": "../../../assets/scooter.jpg"
+    }
+  ]
