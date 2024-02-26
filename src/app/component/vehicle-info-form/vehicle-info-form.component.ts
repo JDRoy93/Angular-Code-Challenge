@@ -63,7 +63,7 @@ export class VehicleInfoFormComponent implements OnInit {
     this.store.dispatch(VehicleTypeAction.loadVehicleType());
   }
 
-  loadSubType(type: string) {
+  loadSubType(type: string): void {
     this.store.dispatch(VehicleTypeAction.loadVehicleSubType());
     this.vehicleSubTypeInfo$.subscribe((data) => {
       this.vehicleSubTypes = data.vehicleSubType?.filter(
@@ -73,7 +73,7 @@ export class VehicleInfoFormComponent implements OnInit {
     });
   }
 
-  checkValidity() {
+  checkValidity(): void {
     if (this.vehicleInfoForm.value.licenseNumber?.trim()) {
       const kt = new KentekenCheck(this.vehicleInfoForm.value.licenseNumber);
       kt.formatLicense();
@@ -81,7 +81,7 @@ export class VehicleInfoFormComponent implements OnInit {
     }
   }
 
-  formatLicence() {
+  formatLicence(): void {
     if (this.vehicleInfoForm.value.licenseNumber?.trim()) {
       const formattedNumber = formatLicenceNumber(
         this.vehicleInfoForm.value.licenseNumber?.toUpperCase()
